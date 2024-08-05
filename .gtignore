@@ -1,7 +1,5 @@
 # Exclude virtual environment folders
-01-sentiment-analysis/Include/
-01-sentiment-analysis/Lib/
-01-sentiment-analysis/Scripts/
+01-sentiment-analysis
 
 # But keep the virtual environment configuration file
 !01-sentiment-analysis/pyvenv.cfg
