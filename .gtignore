@@ -1,14 +1,13 @@
-# Exclude virtual environment packages
-01-sentiment-analysis/lib/
-01-sentiment-analysis/bin/
-01-sentiment-analysis/include/
+# Exclude virtual environment folders
+01-sentiment-analysis/Include/
 01-sentiment-analysis/Lib/
 01-sentiment-analysis/Scripts/
-01-sentiment-analysis/Include/
 
-# Allow specific files within the virtual environment
+# But keep the virtual environment configuration file
 !01-sentiment-analysis/pyvenv.cfg
-!01-sentiment-analysis/include/specific_file.h
+
+# Exclude site-packages (where installed packages reside)
+01-sentiment-analysis/Lib/site-packages/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
