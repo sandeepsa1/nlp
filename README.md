@@ -1,5 +1,5 @@
 ## NLP Projects
-This repository contains my NLP projects.
+This repository contains few medium sized NLP projects.
 Each folder within the repository are separate virtual environments representing a separate code implementation, accompanied by a README.md file explaining its functionalities.
 
 ## Table of Contents
