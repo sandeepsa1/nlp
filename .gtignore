@@ -1,74 +1,14 @@
-# Exclude virtual environment folders
-venv/
-env/
+# Exclude virtual environment packages
+01-sentiment-analysis/lib/
+01-sentiment-analysis/bin/
+01-sentiment-analysis/include/
+01-sentiment-analysis/Lib/
+01-sentiment-analysis/Scripts/
+01-sentiment-analysis/Include/
 
-# Exclude Python cache files
-__pycache__/
-
-# Exclude distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Exclude PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
-
-# Exclude Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Exclude unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-
-# Exclude Translations
-*.mo
-*.pot
-
-# Exclude Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-
-# Exclude Flask stuff:
-instance/
-.webassets-cache
-
-# Exclude Scrapy stuff:
-.scrapy
-
-# Exclude Sphinx documentation
-docs/_build/
-
-# Exclude PyBuilder
-target/
+# Allow specific files within the virtual environment
+!01-sentiment-analysis/pyvenv.cfg
+!01-sentiment-analysis/include/specific_file.h
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -98,8 +38,6 @@ share/python-wheels/
 *.egg
 
 # PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
 
@@ -159,12 +97,6 @@ celerybeat-schedule.*
 # dotenv
 .env
 .envrc
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
 
 # Spyder project settings
 .spyderproject
